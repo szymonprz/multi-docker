@@ -16,5 +16,5 @@ after_success:
   - echo "$DOCKER_PASS" | docker login --username "$DOCKER_ID" --password-stdin
   - docker push szymonprz/multi-client
   - docker push szymonprz/multi-nginx
-  - docker push szymonprz/multi-worker
+  - docker push szymonprz/multi-server
   - docker push szymonprz/multi-worker
